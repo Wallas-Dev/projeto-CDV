@@ -148,7 +148,7 @@ public class AuthenticationTest extends BaseTestCase {
 
         // Replace the internal plugin data in order to match the expected 'client-first-message':
         //   [n,,n=user,r=fyko+d2lbbFgONRv9qkxdawL]
-        overrideSaslClientData(authPlugin, "fyko+d2lbbFgONRv9qkxdawL");
+        
 
         // Server's 'server-first-message':
         //   [r=fyko+d2lbbFgONRv9qkxdawL3rfcNHYJY1ZVvWVs7j,s=QSXCR+Q6sek8bf92,i=4096]
